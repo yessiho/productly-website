@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-color:rgb(242, 247, 250);
+    color:black;
+    }
+#box{
+    background-color: rgb(231, 235, 215);
+    width: 750px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content:space-around; */
+    align-items: center;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+button{
+    border: 0;
+    cursor: pointer;
+}
+
+.primary-btn {
+    padding: 1em 1.5em;
+    background-color: dodgerblue;
+    border-radius: 32px;
+    color: #fff;
+}
+
+.secondary-btn {
+    padding: 1em 1.5em;
+    background-color: transparent;
+    border: 2px solid dodgerblue;
+    border-radius: 32px;
+}
+
+.container {
+    max-width: 80em;
+    width: 80%;
+    margin: auto;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0;
+}
+
+.nav-items a:hover {
+    color: dodgerblue;
+}
+
+.nav-items a {
+    padding: 0 .5em;
+}
+
+.nav-items button {
+    margin-left: .5em;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    padding: 2em 0;
+}
+
+header h1 {
+    font-size: 64px;
+}
+
+header .primary-btn {
+    margin-right: 1em;
+}
+
+header p {
+    padding: 1em 0;
+    color: #828282;
+    letter-spacing: 0.02em;
+    width: 450px;
+}
+
+section.features {
+    padding: 2em 0;
+    text-align: center;
+}
+
+section.features h2 {
+    padding-bottom: 1em;
+    font-size: 40px;
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    margin: 1em;
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 16px;
+}
+
+.card p {
+    color: #828282;
+    padding: .5em 0;
+    font-size: 14px;
+}
+
+#box11, #box12{
+    background-color:blue;
+    width:300px;
+    height:100px;
+    color: #fff;
+    border: 1px solid #000;
+    line-height:120px;
+    font-size: 19px;
+    text-align: center;
+    line-height:70px;
+    text-transform: uppercase;
+    
+    }
+    
+#box11{
+    order: 1;
+    flex-grow: unset;
+    }
+    #box12{
+    order: 2;
+    flex-basis: 100px;
+
+    }
+#work{
+        position: 100%;
+        margin: auto;
+    }
+
+    .top{
+        margin-left: 800px;
+        word-spacing: 1px;
+        background-color: #fff;
+    }
+    
+    #back{
+        background-color: yellow;
+        bottom: yellow;
+    }
+
+    .tony{
+        display: flex;
+        padding: 0%;
+        margin-top: auto;
+    }
+    
+#tony1{
+    display: flex;
+    margin-left: 300px;
+    margin-top: 10%;
+
+}
+#how{
+    padding: 10px;
+}
+#how1{
+    padding: 10px;
+}
+#how2{
+    padding: 10px;
+}
+#how3{
+    padding: 10px;
+}
+#how4{
+    padding: 10px;
+}
+#work1{
+    margin-left: 100px;
+    text-transform: capitalize;
+    font-size: large;
+    padding-top: 200px;
+}
+#y1{
+    background-color: yellow;
+    border: yellow;
+}
+#y2{
+    background-color: yellow;
+    border: yellow;
+}
+#work2{
+    text-align: center;
+}
+.post{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 0;
+    margin: 0%;
+
+}
+#well{
+    background-color: yellowgreen;
+    margin-left: 450px;
+    border: yellowgreen;
+    width: 200px;
+    height: 50px;
+
+}
+#work3{
+    margin-left: 80px;
+}
+.Yoh{
+    display: flex;
+}
+.Yoh1{
+    margin-left: 200px;
+}
+#word{
+    display: flex;
+}
+.post1{
+    display: flex;
+}
+#all{
+    padding: 50px;
+}
+#jut{
+    margin-left: 200px;
+}
+.gth{
+    display: flex;
+    margin-left: 200px;
+}
+#vendor{
+    margin-right: 250px;;
+    font-size: medium;
+}
+#go{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: xx-large;
+}
+#fht{
+    margin-left: 680px;
+    background-color: yellow;
+    border: yellow;
+    width: 200px;
+    height: 50px;
+}
+#gyp{
+    display: flex;
+}
+.pt1{
+    margin-left: 100px;
+}
+.pt2{
+    margin-left: 100px;
+}
+.pt3{
+    margin-left: 100px;
+}
+#wt{
+    margin-left: 100px;
+}
+.jerry{
+    display: flex;
+}
+#t1{
+    margin-left: 200px;
+    padding: 20px;
+}
+#t2{
+    margin-left: 200px;
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: 200;
+}
+#t3{
+    margin-left: 200px;
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: 200;
+}
+#t4{
+    margin-left: 200px;
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: 200;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#t5{
+    background-color: greenyellow;
+    border: greenyellow;
+    box-sizing: border-box;
+    width: 140px;
+    height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
