@@ -4,11 +4,13 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: sans-serif;
     background-color:rgb(242, 247, 250);
     color:black;
-    }
+    line-height: 1.6;
+}
+
 #box{
     background-color: rgb(231, 235, 215);
     width: 750px;
@@ -97,6 +99,55 @@ section.features {
 section.features h2 {
     padding-bottom: 1em;
     font-size: 40px;
+}
+
+section.validation .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 0;
+}
+
+.validation h2 {
+    font-size: 40px;
+}
+
+.validation ul li {
+    margin: 1em 0;
+}
+
+.validation ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+}
+
+.validation p {
+    font-size: 14px;
+    color: #828282;
+    padding: .5em 0;
+}
+
+.validation li::marker {
+    color: dodgerblue;
+    font-size: 2em;
+}
+
+.decision .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.decision .list-item {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin: 1em 0;
+}
+
+.decision .list-item p {
+    display: inline-block;
 }
 
 .card-container {
